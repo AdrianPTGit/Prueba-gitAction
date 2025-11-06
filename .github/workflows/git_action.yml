@@ -1,4 +1,4 @@
-#nombre del flujo de trabajo
+# nombre del flujo de trabajo
 name: Prueba de mensaje github actions
 
 on:
@@ -7,8 +7,7 @@ on:
 
 jobs:
   build:
-    runs_on: ubuntu-latest
-    steps: 
+    runs-on: ubuntu-latest
+    steps:
       - name: Mostrar mensaje
-        run: 
-          echo "Hola"
+        run: echo "Hola"
