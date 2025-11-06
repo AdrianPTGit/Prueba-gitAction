@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 name: Prueba de mensaje github actions
 
 on:
@@ -14,19 +14,4 @@ jobs:
 
       - name: Mostrar versión de Java
         run: java --version
-=======
-# nombre del flujo de trabajo
-name: Prueba de mensaje github actions
 
-on:
-  push:
-    branches: [ main ]
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Mostrar mensaje
-        run: date
-        run: java --version
->>>>>>> 26dc97d (Creado texto.txt 5)
