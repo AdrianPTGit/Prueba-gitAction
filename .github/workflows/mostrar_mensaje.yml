@@ -1,4 +1,3 @@
-# nombre del flujo de trabajo
 name: Prueba de mensaje github actions
 
 on:
@@ -9,6 +8,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Mostrar mensaje
+      - name: Mostrar hora del sistema
         run: date
+
+      - name: Mostrar versión de Java
         run: java --version
