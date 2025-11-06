@@ -1,0 +1,14 @@
+#nombre del flujo de trabajo
+name: Prueba de mensaje github actions
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs_on: ubuntu-latest
+    steps: 
+      name: Mostrar mensaje
+      run: 
+        echo "Hola"
