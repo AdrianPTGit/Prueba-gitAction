@@ -9,6 +9,6 @@ jobs:
   build:
     runs_on: ubuntu-latest
     steps: 
-      name: Mostrar mensaje
-      run: 
-        echo "Hola"
+      - name: Mostrar mensaje
+        run: 
+          echo "Hola"
